@@ -35,7 +35,7 @@ fn main() {
         window.draw_point(&b, &green);
         window.draw_point(&c, &blue);
         
-        if points.len() < 10_000 {
+        if points.len() < 1_000 {
             choice = rng.choose(&choices).expect("could not choose point");
             pp = Point3::new( (pp.x + choice.x)/2f32, (pp.y + choice.y)/2f32, 0.0);
             //pp = Point3::new( (pp.x + choice.x)/2f32, (pp.y + choice.y)/2f32, (pp.x + choice.y)/2f32); slightly wrong z values but is kinda pretty 
