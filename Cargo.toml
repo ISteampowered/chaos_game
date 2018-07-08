@@ -1,0 +1,9 @@
+[package]
+name = "chaos_games"
+version = "0.1.0"
+authors = ["Steam <steampunkv@gmail.com>"]
+
+[dependencies]
+kiss3d = "0.15.0"
+nalgebra = "0.15"
+rand = "0.5.3"
