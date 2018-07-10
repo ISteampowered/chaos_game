@@ -34,7 +34,7 @@ fn main() {
     let mut points = Vec::new();
 
     let mut pp = a;
-    let mut choice = e;
+    let mut choice;
     let mut previous_1 = 0;
     let point_to_num = |point| {
         if point == a {0}
@@ -47,7 +47,7 @@ fn main() {
             5
             }
     };
-    let mut num = point_to_num(choice);
+    let mut num;
 
     while points.len() < 20_000 {
         choice = *rng.choose(&choices).expect("could not choose point");

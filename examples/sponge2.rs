@@ -71,6 +71,7 @@ fn main() {
 
     while window.render() {
         for mut event in window.events().iter() {
+            //TODO: replace this match with an 'if let ...' statement
             match event.value{
                 WindowEvent::Key(glfw::Key::S, _, Action::Press, _) => {
                     let mut next = Vec::new();

@@ -53,6 +53,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "chaos_games"
 version = "0.1.0"
 dependencies = [
+ "glfw 0.19.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "kiss3d 0.15.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "nalgebra 0.15.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "rand 0.5.3 (registry+https://github.com/rust-lang/crates.io-index)",
